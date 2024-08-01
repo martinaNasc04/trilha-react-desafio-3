@@ -26,6 +26,10 @@ export const Row = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+
+    a{
+        text-decoration: none;
+    }
 `
 
 
@@ -79,4 +83,7 @@ export const CriarText =  styled.p`
     line-height: 19px;
 
     color: #23DD7A;
+    a{
+        text-decoration: none;
+    }
 `
